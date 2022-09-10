@@ -25,4 +25,11 @@
         text-xs font-bold transition-all duration-100
         scale-0 origin-left;
     }
+
+    .biocard {
+        @apply fixed top-8 right-4 p-2 m-2 rounded-lg
+        bg-teal-800 border-yellow-700 border-solid
+        border-2 h-2/3 w-80
+        active:translate-x-full transition-all
+    }
 }
