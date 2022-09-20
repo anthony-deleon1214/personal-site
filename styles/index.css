@@ -28,7 +28,7 @@
         @apply absolute w-auto p-2 m-2 min-w-max left-14
         rounded-md shadow-md text-white bg-teal-800
         text-xs font-bold transition-all duration-100
-        scale-0 origin-left;
+        scale-0 origin-left z-50;
     }
 
     .biocard-vis {
@@ -49,11 +49,12 @@
     .post-container-sm {
         @apply relative top-8 left-28 bg-slate-900
         h-screen w-9/12 rounded-xl transition-all duration-500
+        -z-10
     }
 
     .post-container-lg {
         @apply relative top-8 left-28 bg-slate-900
         h-screen w-11/12 rounded-xl transition-all duration-500
-        justify-center
+        justify-center -z-10
     }
 }
