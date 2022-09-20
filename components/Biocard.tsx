@@ -1,9 +1,12 @@
 const transitionCard = () => {
     const card = document.getElementById("biocard");
+    const postContainer = document.getElementById("post-container");
     if (card.className === "biocard-vis") {
         card.className = "biocard-hide";
+        postContainer.className = "post-container-lg";
     } else {
         card.className = "biocard-vis";
+        postContainer.className = "post-container-sm";
     };
 };
 

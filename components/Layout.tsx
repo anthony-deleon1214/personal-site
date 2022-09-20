@@ -14,6 +14,6 @@ const Layout = () => (
     <PostGrid></PostGrid>
     <Biocard></Biocard>
   </div>
-)
+);
 
 export default Layout;
