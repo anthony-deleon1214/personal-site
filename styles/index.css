@@ -34,14 +34,14 @@
     .biocard-vis {
         @apply fixed top-8 right-4 p-2 m-2 rounded-lg
         bg-teal-800 border-amber-500 border-solid
-        border-2 h-2/3 w-80 text-white justify-center
+        border-2 h-2/3 w-1/6 text-white justify-center
         text-center transition-all duration-500
     }
 
     .biocard-hide {
         @apply fixed top-8 right-4 p-2 m-2 rounded-lg
         bg-teal-800 border-amber-500 border-solid
-        border-2 h-16 w-80 text-white justify-center
+        border-2 h-16 w-1/12 text-white justify-center
         text-center transition-all translate-x-full
         duration-500
     }
@@ -53,7 +53,7 @@
 
     .post-container-lg {
         @apply relative top-8 left-28 bg-slate-900
-        h-screen w-5/6 rounded-xl transition-all duration-500
+        h-screen w-11/12 rounded-xl transition-all duration-500
         justify-center
     }
 }
