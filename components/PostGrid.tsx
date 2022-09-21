@@ -1,10 +1,7 @@
-const PostGrid = (props) => {
-    const postList = props.posts;
-    return (
-        <div id="post-container" className="post-container-sm">
-            <h1>Test Post</h1>
-        </div>
-    )
+const PostGrid = () => {
+    <div id="post-grid" className="post-grid">
+
+    </div>
 };
 
 export default PostGrid;
