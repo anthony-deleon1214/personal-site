@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Sidebar from './Sidebar'
 import Biocard from './Biocard';
-import PostGrid from './PostGrid';
+import PostGrid from './PostsContainer';
 
 const Layout = () => (
   <div className='layout'>
