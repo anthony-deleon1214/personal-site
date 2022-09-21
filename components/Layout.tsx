@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Sidebar from './Sidebar'
 import Biocard from './Biocard';
-import PostGrid from './PostGridContainer';
 import PostGridContainer from './PostGridContainer';
 
 const Layout = () => (
@@ -13,7 +12,6 @@ const Layout = () => (
     </Head>
     <Sidebar></Sidebar>
     <PostGridContainer>
-      <PostGrid></PostGrid>
     </PostGridContainer>
     <Biocard></Biocard>
   </div>
