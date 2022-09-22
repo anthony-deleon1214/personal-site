@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Sidebar from './Sidebar'
 import Biocard from './Biocard';
-import PostGrid from './PostsContainer';
+import PostGridContainer from './PostGridContainer';
 
 const Layout = () => (
   <div className='layout'>
@@ -11,7 +11,8 @@ const Layout = () => (
       <title>Anthony Deleon</title>
     </Head>
     <Sidebar></Sidebar>
-    <PostGrid></PostGrid>
+    <PostGridContainer>
+    </PostGridContainer>
     <Biocard></Biocard>
   </div>
 );

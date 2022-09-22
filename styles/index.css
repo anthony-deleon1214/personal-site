@@ -10,7 +10,7 @@
 
     .sidebar {
         @apply fixed top-0 left-0 h-screen
-        w-16 m-0 flex flex-col bg-teal-800
+        w-1/30 m-0 flex flex-col bg-teal-800
         text-white shadow-lg;
     }
 
@@ -47,14 +47,22 @@
     }
 
     .post-container-sm {
-        @apply relative top-8 left-28 bg-slate-900
+        @apply relative top-8 left-1/18 bg-slate-900
         h-screen w-9/12 rounded-xl transition-all duration-500
         -z-10
     }
 
     .post-container-lg {
-        @apply relative top-8 left-28 bg-slate-900
+        @apply relative top-8 left-1/18 bg-slate-900
         h-screen w-11/12 rounded-xl transition-all duration-500
         justify-center -z-10
+    }
+
+    .post-grid {
+        @apply grid grid-flow-row grid-cols-4
+    }
+
+    .post-preview {
+        @apply bg-slate-50
     }
 }

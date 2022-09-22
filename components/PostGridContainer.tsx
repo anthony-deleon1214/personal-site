@@ -1,4 +1,4 @@
-const PostsContainer = (props) => {
+const PostGridContainer = (props) => {
     const postList = props.posts;
     return (
         <div id="post-container" className="post-container-sm">
@@ -7,4 +7,4 @@ const PostsContainer = (props) => {
     )
 };
 
-export default PostsContainer;
+export default PostGridContainer;
