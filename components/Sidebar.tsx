@@ -4,7 +4,7 @@ import { FaHistory, FaListUl } from "react-icons/fa";
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <SidebarIcon icon={<AiOutlineHome size="28" />} text={"Back to home"}/>
+            <SidebarIcon icon={<AiOutlineHome size='65%'/>} text={"Back to home"}/>
         </div>
     )
 };
