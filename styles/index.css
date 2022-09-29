@@ -59,6 +59,7 @@
 
     .post-grid {
         @apply grid grid-flow-row grid-cols-4
+        bg-slate-400 h-12 
     }
 
     .post-preview {
