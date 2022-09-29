@@ -9,3 +9,9 @@ export const config = {
 
 // Set up the client for fetching data in the getProps page functions
 export const sanityClient = createClient(config);
+
+//Helper function for generating image url using asset reference data
+export const urlFor = (source) => createImgUrlBuilder(config).image(source);
+
+//Helper function to use curreently logged in user account
+export const useCurrentUser = createCurrentUserHook(config)
