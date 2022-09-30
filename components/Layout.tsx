@@ -4,17 +4,21 @@ import Head from 'next/head';
 import Sidebar from './Sidebar'
 import Biocard from './Biocard';
 import PostGridContainer from './PostGridContainer';
+import { Post } from '../typings';
 
-const Layout = () => (
+interface Props {
+  posts: [Post];
+}
+
+export default function Layout({ posts }: Props) {
+  return (
   <div className='layout'>
     <Head>
       <title>Anthony Deleon</title>
     </Head>
     <Sidebar></Sidebar>
-    <PostGridContainer>
-    </PostGridContainer>
+    <PostGridContainer posts={posts}></PostGridContainer>
     <Biocard></Biocard>
   </div>
-);
-
-export default Layout;
+  )
+}

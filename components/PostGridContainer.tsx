@@ -1,8 +1,18 @@
-const PostGridContainer = (props) => {
-    const postList = props.posts;
+import { Post } from "../typings";
+import Link from 'next/link';
+import { urlFor } from "../sanity";
+import PostPreview from "./PostPreview";
+
+interface Props {
+    posts: [Post];
+};
+
+const PostGridContainer = ({ posts }: Props) => {
     return (
         <div id="post-container" className="post-container-sm">
-            <h1>Test Post</h1>
+            <div className="post-grid">
+                {posts.map(post => <PostPreview post={post} />)}
+            </div>
         </div>
     )
 };
