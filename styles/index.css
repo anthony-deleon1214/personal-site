@@ -62,18 +62,19 @@
     }
 
     .post-preview {
-        @apply rounded-xl cursor-pointer
+        @apply rounded-xl cursor-pointer row-span-1
+        overflow-hidden
     }
 
     .post-preview-info {
         @apply flex p-5 bg-white
-        text-black
+        text-black rounded-b-xl
     }
 
     .post-preview-img {
         @apply h-60 w-full object-cover
         group-hover:scale-105 
         transition-transform duration-200
-        ease-in-out rounded-xl
+        ease-in-out rounded-t-xl
     }
 }
