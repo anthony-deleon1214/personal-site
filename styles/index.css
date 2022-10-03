@@ -41,7 +41,7 @@
         bg-teal-800 border-amber-500 border-solid
         border-2 h-16 w-1/12 text-white justify-center
         text-center transition-all translate-x-full
-        duration-500
+        duration-500 hover:right-8
     }
 
     .post-container-sm {
