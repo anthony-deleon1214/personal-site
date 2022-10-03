@@ -1,5 +1,6 @@
 import { AiOutlineHome } from "react-icons/ai";
 import { FaHistory, FaListUl } from "react-icons/fa";
+import Link from "next/link";
 
 const Sidebar = () => {
     return (

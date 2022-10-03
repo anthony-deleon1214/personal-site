@@ -15,8 +15,8 @@ export default function PostPreview(Props) {
                     <img className="post-preview-img" src={urlFor(post.mainImage).url()!} alt="" />
                     <div className="post-preview-info">
                         <div>
-                            <p>{post.title}</p>
-                            <p>
+                            <p className="text-lg font-bold">{post.title}</p>
+                            <p className="text-xs">
                                 {post.description} by {post.author.name}
                             </p>
                         </div>
