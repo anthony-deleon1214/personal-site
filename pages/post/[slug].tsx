@@ -9,9 +9,10 @@ interface Props {
 
 function Post({ post }: Props) {
     return (
-        <main>
+        <div key={post._id}>
             <Sidebar />
-        </main>
+            <p>{post.body}</p>
+        </div>
     )
 };
 
