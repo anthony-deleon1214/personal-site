@@ -77,4 +77,24 @@
         transition-transform duration-200
         ease-in-out rounded-t-xl
     }
+
+    .post-image {
+        @apply w-full h-40 object-cover
+    }
+
+    .post-title {
+        @apply text-3xl mt-10 mb-3
+    }
+
+    .post-content {
+        @apply max-w-3xl mx-auto p-5
+    }
+
+    .post-description {
+        @apply text-xl font-light text-gray-500 mb-2
+    }
+
+    .publish-date {
+        @apply font-extralight text-sm
+    }
 }

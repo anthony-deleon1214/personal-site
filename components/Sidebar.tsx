@@ -5,18 +5,20 @@ import Link from "next/link";
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <SidebarIcon icon={<AiOutlineHome size='65%'/>} text={"Back to home"}/>
+            <SidebarIcon icon={<AiOutlineHome size='65%'/>} text={"Back to home"} url={"/"} />
         </div>
     )
 };
 
-export function SidebarIcon({ icon, text }) {
+export function SidebarIcon({ icon, text, url }) {
     return (
         <div className="sidebar-icon group">
-            {icon}
-            <span className="sidebar-tooltip group-hover:scale-100">
-                {text}
-            </span>
+            <Link href={url}>
+                {icon}
+            </ Link>
+                <span className="sidebar-tooltip group-hover:scale-100">
+                    {text}
+                </span>
         </div>
     )
 };
