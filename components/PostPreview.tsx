@@ -17,7 +17,7 @@ export default function PostPreview(Props) {
                         <div>
                             <p className="text-lg font-bold">{post.title}</p>
                             <p className="text-xs">
-                                {post.description} by {post.author.name}
+                                {post.description}
                             </p>
                         </div>
                     </div>
