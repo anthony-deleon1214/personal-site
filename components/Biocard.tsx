@@ -1,3 +1,9 @@
+import { Post } from "../typings";
+
+interface Props {
+    post: Post;
+}
+
 const transitionCard = () => {
     const card = document.getElementById("biocard");
     const postContainer = document.getElementById("post-container");
@@ -10,10 +16,12 @@ const transitionCard = () => {
     };
 };
 
-const Biocard = () => {
+const Biocard = ({ post }: Props) => {
+    const author = post.author
     return (
-        <div id="biocard" className="biocard-vis" onClick={transitionCard}>
+        <div id="biocard" className="biocard-hide" onClick={transitionCard}>
             <h2>Hello There</h2>
+            <p>{author.name}</p>
         </div>
     )
 };

@@ -9,7 +9,7 @@ interface Props {
 
 const PostGridContainer = ({ posts }: Props) => {
     return (
-        <div id="post-container" className="post-container-sm">
+        <div id="post-container" className="post-container-lg">
             <div className="post-grid">
                 {posts.map(post => <PostPreview post={post} />)}
             </div>

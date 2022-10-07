@@ -18,7 +18,7 @@ export default function Layout({ posts }: Props) {
     </Head>
     <Sidebar></Sidebar>
     <PostGridContainer posts={posts}></PostGridContainer>
-    <Biocard></Biocard>
+    <Biocard post={posts[0]}></Biocard>
   </div>
   )
 }
