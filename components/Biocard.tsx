@@ -24,7 +24,7 @@ const Biocard = ({ post }: Props) => {
             <h2>Hello There</h2>
             <p>{author.name}</p>
             <PortableText
-                        className="visible"
+                        className="invisible"
                         dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
                         projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
                         content={author.bio}
