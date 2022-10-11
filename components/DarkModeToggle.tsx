@@ -1,9 +1,7 @@
-import { HiSun, HiMoon } from "react-icons";
-
-export default function DarkModeToggle() {
+export default function DarkModeToggle({ icon }) {
     return (
         <div className="dark-mode-toggle">
-            <HiSun size='50%' />
+            { icon }
         </div>
     )
-}
+};

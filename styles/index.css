@@ -100,6 +100,6 @@
 
     .dark-mode-toggle {
         @apply fixed bottom-6 right-4 rounded-xl
-        bg-teal-800 h-16 w-1/12
+        bg-teal-800 h-16 w-1/12 z-20
     }
 }

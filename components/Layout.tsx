@@ -4,6 +4,8 @@ import Head from 'next/head';
 import Sidebar from './Sidebar'
 import Biocard from './Biocard';
 import PostGridContainer from './PostGridContainer';
+import DarkModeToggle from './DarkModeToggle';
+import { HiSun, HiMoon } from "react-icons";
 import { Post } from '../typings';
 
 interface Props {
@@ -19,6 +21,7 @@ export default function Layout({ posts }: Props) {
     <Sidebar></Sidebar>
     <PostGridContainer posts={posts}></PostGridContainer>
     <Biocard post={posts[0]}></Biocard>
+    <DarkModeToggle icon={HiSun}></DarkModeToggle>
   </div>
   )
 }
