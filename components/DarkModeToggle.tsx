@@ -1,7 +1,19 @@
-export default function DarkModeToggle({ icon }) {
+import { HiSun, HiMoon } from "react-icons/hi";
+
+const DarkModeToggle = () => {
     return (
-        <div className="dark-mode-toggle">
+        <div className="toggle-container">
+            <ToggleIcon icon={<HiMoon size='55%'/>} />
+        </div>
+    )
+};
+
+export function ToggleIcon({ icon }) {
+    return (
+        <div className="toggle-icon">
             { icon }
         </div>
     )
 };
+
+export default DarkModeToggle;

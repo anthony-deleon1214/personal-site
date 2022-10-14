@@ -98,8 +98,13 @@
         @apply font-extralight text-sm
     }
 
-    .dark-mode-toggle {
-        @apply fixed bottom-6 right-4 rounded-xl
-        bg-teal-800 h-16 w-1/24 z-20
+    .toggle-container {
+        @apply fixed bottom-6 right-20 rounded-xl
+        bg-teal-800 h-16 w-1/30 z-20
+    }
+
+    .toggle-icon {
+        @apply flex aspect-square items-center
+        justify-center
     }
 }
