@@ -4,27 +4,27 @@
 
 @layer components {
     .layout {
-        @apply flex h-screen w-screen bg-teal-400
+        @apply flex h-screen w-screen dark:bg-teal-400
         fixed top-0 left-0
     }
 
     .sidebar {
         @apply fixed top-0 left-0 h-screen
-        w-1/30 m-0 flex flex-col bg-teal-800
+        w-1/30 m-0 flex flex-col dark:bg-teal-800
         text-white shadow-lg;
     }
 
     .sidebar-icon {
         @apply flex items-center justify-center
         aspect-square w-5/6 mt-2 mb-2 mx-auto
-        rounded-3xl bg-teal-700 text-white hover:bg-teal-300 
+        rounded-3xl dark:bg-teal-700 text-white hover:bg-teal-300 
         hover:text-teal-900 hover:rounded-xl transition-all 
         ease-linear cursor-pointer duration-300;
     }
 
     .sidebar-tooltip {
         @apply absolute w-auto p-2 m-2 min-w-max left-16
-        rounded-md shadow-md text-white bg-teal-800
+        rounded-md shadow-md text-white dark:bg-teal-800
         text-xs font-bold transition-all duration-100
         scale-0 origin-left z-50;
     }
