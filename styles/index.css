@@ -98,10 +98,10 @@
         @apply font-extralight text-sm
     }
 
-    .toggle-container {
+    .toggle-container-hide {
         @apply fixed bottom-6 right-4 rounded-xl
         bg-teal-800 h-16 w-1/30 z-20 translate-x-full
-        hover:right-1/24 transition-all duration-150
+        hover:right-8 transition-all duration-150
     }
 
     .toggle-icon {

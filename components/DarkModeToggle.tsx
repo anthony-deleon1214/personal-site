@@ -2,7 +2,7 @@ import { HiSun, HiMoon } from "react-icons/hi";
 
 const DarkModeToggle = () => {
     return (
-        <div className="toggle-container">
+        <div className="toggle-container-hide">
             <ToggleIcon icon={<HiMoon size='55%'/>} />
         </div>
     )
