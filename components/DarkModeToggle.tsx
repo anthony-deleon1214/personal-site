@@ -1,5 +1,9 @@
 import { HiSun, HiMoon } from "react-icons/hi";
 
+const function toggleVis() = {
+    return ()
+}
+
 const DarkModeToggle = () => {
     return (
         <div className="toggle-container-hide">
