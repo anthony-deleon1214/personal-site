@@ -1,12 +1,13 @@
 import { HiSun, HiMoon } from "react-icons/hi";
 
-const function toggleVis() = {
-    return ()
+const toggleVis = () => {
+    const toggleContainer = document.getElementById("toggle-container")
+    const modeIcon = document.getElementById("toggle-icon")
 }
 
 const DarkModeToggle = () => {
     return (
-        <div className="toggle-container-hide">
+        <div id="toggle-container" className="toggle-container-hide">
             <ToggleIcon icon={<HiMoon size='55%'/>} />
         </div>
     )
@@ -14,7 +15,7 @@ const DarkModeToggle = () => {
 
 export function ToggleIcon({ icon }) {
     return (
-        <div className="toggle-icon">
+        <div id="toggle-icon" className="toggle-icon">
             { icon }
         </div>
     )
