@@ -21,7 +21,6 @@ export default function Layout({ posts }: Props) {
     <Sidebar></Sidebar>
     <PostGridContainer posts={posts}></PostGridContainer>
     <Biocard post={posts[0]}></Biocard>
-    <DarkModeToggle icon={<HiSun size='55%' />}></DarkModeToggle>
   </div>
   )
 }
