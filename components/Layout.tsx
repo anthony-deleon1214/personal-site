@@ -4,8 +4,6 @@ import Head from 'next/head';
 import Sidebar from './Sidebar'
 import Biocard from './Biocard';
 import PostGridContainer from './PostGridContainer';
-import DarkModeToggle from './DarkModeToggle';
-import { HiSun, HiMoon } from "react-icons/hi";
 import { Post } from '../typings';
 
 interface Props {

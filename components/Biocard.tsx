@@ -21,10 +21,10 @@ const Biocard = ({ post }: Props) => {
     const author = post.author
     return (
         <div id="biocard" className="biocard-hide" onClick={transitionCard}>
-            <h2>Hello There</h2>
+            <h2>Welcome!</h2>
+            <img></img>
             <p>{author.name}</p>
             <PortableText
-                        className="invisible"
                         dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
                         projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
                         content={author.bio}
