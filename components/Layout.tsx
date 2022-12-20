@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
-import Sidebar from './Sidebar'
+import Sidebar from './Sidebar';
 import Biocard from './Biocard';
 import PostGridContainer from './PostGridContainer';
 import { Post } from '../typings';
