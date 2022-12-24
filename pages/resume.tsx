@@ -2,14 +2,15 @@ import Sidebar from "../components/Sidebar";
 
 function Resume() {
     return (
-        // TODO: Implement as a CSS grid
-        <div className="flex h-screen w-screen dark:bg-slate-800 -z-0">
+        <div className="flex h-screen w-screen dark:bg-slate-800 scroll:min-h-screen overscroll-contain">
             <Sidebar />
-            <div className="header">
-                <span className="nameplate">Anthony Deleon</span>
-            </div>
-            <div className="resume-content">
-
+            <div className="resume-grid-container">
+                <div className="resume-section">
+                    <h1 className="text-3xl underline p-4">Work Experience</h1>
+                </div>
+                <div className="resume-section"></div>
+                <div className="resume-section"></div>
+                <div className="resume-section"></div>
             </div>
         </div>
     )
