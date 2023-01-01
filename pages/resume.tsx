@@ -40,6 +40,10 @@ function Resume() {
                 </div>
                 <div className="resume-section">
                     <h1 className="text-3xl underline p-4">Certifications</h1>
+                    <ul className="list-disc mx-8">
+                        <li className="font-light">College Reading and Learning Association Level 1</li>
+                        <li className="font-light">Data Analytics and Visualization in Python (IBM program through Coursera)</li>
+                    </ul>
                 </div>
             </div>
         </div>
