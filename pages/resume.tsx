@@ -12,8 +12,11 @@ function Resume() {
                             University of Maryland, Baltimore County
                         </li>
                         <li className="mx-8">
-                            B.S., Biochemistry and Molecular Biology
+                            B.S., Biochemistry and Molecular Biology (Graduated December 2018)
                         </li>
+                        <li className="font-bold mx-4">Oregon State University</li>
+                        <li className="mx-8">Post-bacc coursework in Computer Science</li>
+                        <li className="mx-12 font-light text-sm">Courses include Data Structures, Computer Architecture and Assembly Language, Web Development</li>
                     </ul>
                 </div>
                 <div className="resume-section">
@@ -36,6 +39,7 @@ function Resume() {
                     <ul className="list-disc mx-8">
                         <li className="font-light">Chip-8 Interpreter (Javascript)</li>
                         <li className="font-light">Hash Map Implementations (Python)</li>
+                        <li className="font-light">Personal Website (Typescript using React and Next.js)</li>
                     </ul>
                 </div>
                 <div className="resume-section">
